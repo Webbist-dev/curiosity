@@ -1,0 +1,39 @@
+.container {
+    max-width: 830px;
+    margin: 0 auto;
+}
+
+.header {
+    margin-bottom: 70px;
+}
+
+.inner {
+    background-image: linear-gradient(#1c1c1a .1em, transparent .1em);
+    background-size: 100% 14px;
+    padding: 30px 50px 115px;
+    text-transform: uppercase;
+    display: grid;
+    grid-template-rows: 140px 125px 350px 80px auto 130px auto;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between
+}
+
+.space-bottom {
+    padding-bottom: 60px;
+}
+
+.space-left {
+    padding-left:75px;
+}
+
+.horizontal-end {
+    margin-left: auto;
+    justify-self: flex-end;
+}
+
+.verticle-end {
+    align-self: flex-end;
+}

@@ -1,3 +1,6 @@
+@import "setup/_normalize.scss";
 @import "setup/_variables.scss";
 
-@import "views/_app.scss";
+@import "basic/_base.scss";
+@import "basic/_layout.scss";
+@import "basic/_typography.scss";
