@@ -45,17 +45,19 @@
             <h4>668 sols (687 days)</h4>
           </div>
         </div>
+        <mars-video></mars-video>
       </div>
     </div>
   </div>
 </template>
 
 <script>
-  export default {
-    name: 'app'
+  import MarsVideo from '@/components/video'
+
+  export default { 
+    name: 'app',
+    components: {
+      MarsVideo
+    }
   }
 </script>
-
-<style lang="scss" scoped>
-  
-</style>
